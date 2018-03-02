@@ -4,12 +4,12 @@
 Just randomly generate string(uppercase and lowercase mixed) for the lazy.
 ```
 
-### Install with npm
+## Install with npm
 
 ```
 npm install --save gen-char
 ```
 
-### License
+## License
 
 MIT
