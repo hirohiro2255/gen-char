@@ -1,10 +1,12 @@
 module.exports = function(len) {
   let title = '';
   let chars = '';
+  let counter = 5
   const lowerAlpha = 'abcdefghijklmnopqrstuvwxyz';
   const upperAlpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  const counter = len || 5;
-
+  if (typeof len === 'number' && !isNaN(len) && len > 0) {
+    counter = len;
+  }
   chars += lowerAlpha;
   chars += upperAlpha;
   for (let i = 0; i < counter; i++) {
